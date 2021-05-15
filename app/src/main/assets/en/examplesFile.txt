@@ -1,0 +1,22 @@
+The four women Anne, Betsie, Charlotte and Dolores and the six men Eric, Frank, George, Harry, Ian and James are friends. Each of the women wants to marry one of the six men. In how many ways can this be done?
+\[A_{6}^{4}=360\]
+You need to put your reindeer, Gloopin, Balthazar, Bloopin, Prancer, and Quentin, in a single-file line to pull your sleigh. However, Prancer and Balthazar are best friends, so you have to put them next to each other, or they won't fly.
+\[2\cdot P_{4}=2\cdot4!=48\]
+You just got a free ticket for a boat ride, and you can bring along 222 friends! Unfortunately, you have 555 friends who want to come along.
+\[C_{5}^{2}=2037171\]
+How many unique ways are there to arrange the letters in the word CANNON?
+\[P_{NNN}=\frac{6!}{3!}=120\]
+How many possible ways are there to form five-letter words using only the letters A–H?
+\[\overline{A_{8}^{5}}=8^{5}\]
+How many flags can we make with 7 stripes, if we have 2 white, 2 red and 3 green stripes?
+\[P_{2,2,2}=\frac{11!}{2!\cdot2!\cdot2!}=4989600\]
+How many five-element subsets of {1, 2, 3, . . . , 10} contain at least one odd element?
+\[C_{10}^{5}-1=251\]
+Chris has promised to bring back bagels for three friends he’s studying with (as well as one for himself). The bagel shop sells eight varieties of bagel. In how many ways can he choose the bagels to give to Jan, Tom, Olive, and himself?
+\[\overline{A_{8}^{4}}=8^{4}\]
+Lollypop Farm has cats, dogs, goats, ducks and horses.  How many ways can you select three pets to take home?
+\[\overline{C_{5}^{3}}= 35\]
+Calculate the number of possible different configurations of ten books on the shelf, where four detective novels are to be next to each other.
+\[4!\cdot7!=120960\]
+A 6-member group, in which should be exactly 3 women, has to be created from 7 men and 4 women. Find out how many possibilities do we have to create such a group.
+\[C_{7}^{3}\cdot C_{4}^{3}=140\]

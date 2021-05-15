@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Combinatorics</string>
+    <string name="nav_header_title">Combinatorics</string>
+    <string name="nav_header_desc">Навигационный заголовок</string>
+    <string name="general_info">&#169; 2021 Combinatorics</string>
+    <string name="about">О приложении</string>
+
+    <string name="prefix">ru</string>
+    <string name="restartMessage">"Перезапустите приложение для применения настроек"</string>
+    <string name="emptyInputWarning">Введите числа!</string>
+    <string name="bottomCoefficientIncorrect">"Нижний коэффициент должен быть больше или равен верхнему"</string>
+    <string name="menu_formulas">Формулы</string>
+    <string name="menu_examples">Примеры</string>
+    <string name="menu_about">О приложении</string>
+    <string name="fragment_calculate">Вычисление</string>
+    <string name="terms_of_use">Условия использования</string>
+    <string name="calculate">Вычислить</string>
+    <string name="proceed_to_calculation">Перейти к вычислениям</string>
+    <string name="fragment_aboutFull">О Combinatorics</string>
+    <string name="about_combinatorics">О Combinatorics</string>
+    <string name="russian">Русский</string>
+    <string name="english">English</string>
+    <string name="fragment_terms">Условия использования</string>
+    <string name="searchHint">Введите слово для поиска</string>
+    <string name="version">Версия</string>
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

@@ -1,0 +1,52 @@
+Permutations with repetition
+\[A_{n}^{m}=\frac{n!}{(n-m)!}\]
+0
+A
+Permutations of n distinct objects
+\[P_{n}=n!\]
+0
+P
+Combinations without repetition
+\[C_{n}^{m}= \frac{A_{n}^{m}}{P_{m}} = \frac{n!}{m!(n-m)!}\]
+0
+C
+The number of m-tuples over the set of n elements
+\[\overline{A_{n}^{m}}=n^{m}\]
+0
+notA
+Permutations of multisets
+\[P_{m_{1}m_{2}...m_{k}}= \frac{n!}{m_{1}!m_{2}!...m_{k}!}\]
+2
+P
+Combinations with repetition
+\[\overline{C_{n}^{m}}= P_{m,n-1} =C_{n+m-1}^{m}\]
+0
+notC
+Binomial Theorem
+\[(a+b)^n=\sum_{i=0}^{n}C_{n}^{i}a^{n-i}b^i\]
+1
+B
+Principle of Inclusion-Exclusion
+\[\left | A\cup B \right |=\left | A \right |+\left | B \right |-\left | A\cap B \right |\]
+2
+R
+Properties of Combinations
+\[C_{n}^{0}+C_{n}^{1}+...+C_{n}^{n}=2^{n}\]
+2
+R
+Properties of Combinations
+\[C_{n+1}^{m+1}=C_{n}^{m+1}+C_{n}^{m}\]
+2
+R
+Catalan number
+\[C_{0}=1, C_{n}=\sum_{i=0}^{n-1}C_{i}C_{n-1-i}\]
+2
+R
+The number of possibilities to put n not distinguishable balls into k boxes
+\[\frac{(n+k-1)!}{n!(k-1)!}\]
+2
+R
+The number of possibilities to put n distinguishable balls into k boxes
+\[\frac{n^k}{k!}\]
+2
+R

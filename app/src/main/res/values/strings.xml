@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Combinatorics</string>
+    <string name="nav_header_title">Combinatorics</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="general_info">&#169; 2021 Combinatorics</string>
+    <string name="about">About This App</string>
+
+    <string name="prefix">en</string>
+    <string name="restartMessage">"You should restart the app to save the settings"</string>
+    <string name="emptyInputWarning">You should input numbers!</string>
+    <string name="bottomCoefficientIncorrect">"Top coefficient must be less or equal to the top coefficient"</string>
+    <string name="menu_formulas">Formulas</string>
+    <string name="menu_examples">Examples</string>
+    <string name="menu_about">About</string>
+    <string name="fragment_calculate">Calculation</string>
+    <string name="fragment_terms">Terms of use</string>
+    <string name="fragment_aboutFull">About the App</string>
+    <string name="proceed_to_calculation">Proceed to calculation</string>
+    <string name="about_combinatorics">About Combinatorics</string>
+    <string name="terms_of_use">Terms of Use</string>
+    <string name="calculate">Calculate</string>
+    <string name="russian">Russian</string>
+    <string name="english">English</string>
+    <string name="searchHint">Search here</string>
+    <string name="version">Version</string>
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

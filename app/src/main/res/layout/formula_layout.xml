@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp"
+    android:layout_marginLeft="2dp"
+    android:layout_marginRight="2dp"
+    android:layout_marginBottom="6dp"
+    app:strokeColor="@color/gold"
+    app:strokeWidth="1.5dp"
+    app:contentPadding="10dp"
+    app:cardElevation="8dp"
+    app:cardMaxElevation="16dp"
+    android:layout_margin="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="3dp">
+
+        <TextView
+            android:id="@+id/quote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="24sp"
+            android:textColor="@color/darkGray"
+            android:textAlignment="center"
+            android:typeface="sans" />
+
+        <io.github.kexanie.library.MathView
+                android:id="@+id/formulaText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/quote"
+            android:layout_alignParentLeft="true"/>
+
+        <ImageButton
+            android:id="@+id/startCalculation"
+            android:layout_width="35dp"
+            android:background="@drawable/ic_calculate"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_height="35dp"
+            android:contentDescription="@string/proceed_to_calculation" />
+
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>

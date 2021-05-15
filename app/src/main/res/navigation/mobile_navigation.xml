@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/nav_formulas">
+
+    <fragment
+        android:id="@+id/nav_formulas"
+        android:name="com.example.myapplication.ui.formulas.FormulasFragment"
+        android:label="@string/menu_formulas"
+        tools:layout="@layout/fragment_formulas" >
+        <action
+            android:id="@+id/action_nav_formulas_to_calculationFragment"
+            app:destination="@id/calculationFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_examples"
+        android:name="com.example.myapplication.ui.examples.ExamplesFragment"
+        android:label="@string/menu_examples"
+        tools:layout="@layout/fragment_examples" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.example.myapplication.ui.about.AboutFragment"
+        android:label="@string/menu_about" >
+        <action
+            android:id="@+id/action_nav_about_to_aboutCombinatorics2"
+            app:destination="@id/aboutCombinatorics2"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_nav_about_to_termsFragment"
+            app:destination="@id/termsFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutCombinatorics2"
+        android:name="com.example.myapplication.AboutCombinatorics"
+        android:label="About the app"
+        tools:layout="@layout/about_combinatorics_fragment">
+        <action
+            android:id="@+id/action_aboutCombinatorics2_to_nav_about"
+            app:destination="@id/nav_about"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/termsFragment"
+        android:name="com.example.myapplication.TermsFragment"
+        android:label="Terms of use"
+        tools:layout="@layout/terms_fragment" />
+    <fragment
+        android:id="@+id/calculationFragment"
+        android:name="com.example.myapplication.CalculationFragment"
+        android:label="Calculation"
+        tools:layout="@layout/fragment_calculation" >
+        <argument
+            android:name="formulaType"
+            app:argType="string" />
+        <argument
+            android:name="calcGroup"
+            app:argType="integer" />
+    </fragment>
+</navigation>
